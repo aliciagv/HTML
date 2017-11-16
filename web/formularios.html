@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- FORMULARIOS -->
+	<!-- action: recibe como valor una url que se encarga de procesar los datos del formulario
+		 method: el tipo de método que envía los datos POST, GET-->
+	<!--<form action="datos.php" method="POST">-->
+	<form>
+		<!-- INPUT: etiqueta de entrada de datos,
+		type: atributo del tipo de entrada 
+			text: cuadro de texto
+			password: para incluir un password
+			email : email mira el formato
+			checkbox: Marca o desmarcar
+			radio: Radio
+			button: boton
+			submit: Envia los datos del formulario
+			color:
+			range: barra de rango
+		value: atributo que indica el valor predeterminado del input
+		placeholder: atributo de hml5 que indica el valor pero más claro y al pinchar lo borra 
+		size: atributo del tamaño, mejor definirlo por css
+		maxlength: atributo que indica el máximo número de caracteres
+		name: atributo determinarle al servidor que valor estamos pasando, importante para cuando procesemos los datos.
+		id: si tiene un id pode,mos porner un label asignado a este id, asi sin pinchamos en el texto no lleva el foco al input.
+		class-->
+		<label for="nombre">Ingrese su nombre: </label>
+		<input type="text" placeholder="Escribe tu nombre" name="" id="nombre">
+		<br><br>
+		<label for="pass"> Ingrese su password: </label>
+		<input type="password" id="pass">
+		<br><br>
+		<label for="mail"> Ingrese su email: </label>
+		<input type="email" id="mail">
+		<br><br>
+
+		<input type="checkbox" name="hombre" id="">Hombre
+		<input type="checkbox" name="" id="">Mujer
+		<input type="button" value="Enviar" name="">
+		<input type="submit" name="">
+		<!--SELECT, para seleccionar valor de un listado desplegable -->
+
+		<select name="" id="">
+			<option value="Madrid">Madrid</option>
+			<option value="Barcelona">Barcelona</option>
+		</select>
+
+		<input type="color" name="">
+		<input type="range" name="">
+
+		
+	</form>
+</body>
+</html>

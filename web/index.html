@@ -1,0 +1,112 @@
+<html>
+	<!-- head: Titulo de la pagina web, definiremos el set de caracteres, info general del documento e incorporaremos los archivos externos con estilos y js-->
+	<head>
+	<title>Titulo de nuestra primera web</title>
+	<!-- para añadir css-->
+	<!--<link rel="stylesheet" type="text/css" href="esilos.css">-->
+	<!-- para añadir icono de la pestaña. Deber ser .ico-->
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+	<!-- Metadatos: esencial para posicionamiento, es información que le damos al navegador web o a los buscadores --> 
+	<!-- atributos,	name y content>
+		name: el tipo de meta que vamos a utilizar
+			description, para la descritpcion
+			keywords: listado de palabras claves, separadas por comas. Esto se utiliza ya poco
+		content: no  mas de 150-170 -->
+	<meta name="description" content="Aplicacion Agenda"/>
+	<meta name="keywords" content="diseño,desarrollo,paginas web">
+	<!-- para añadir javascript -->
+	<script type="text/javascript">
+		
+	</script>
+	<!--añadir js externo-->
+	<script src="javascript.js"></script>
+	</head>
+	<!-- body: representa la parte visible de todo doucmento-->
+	<body>
+		<!-- h1: se utiliza para titulares -->
+		<h1>Este es mi primer HTML</h1>
+		<!-- p: párrafo -->
+		<!-- b: negrita, estilo visual-->
+		<!--strong: negrita, mas fácil para búsquedas en navegadores-->
+			<p>
+			Lorem ipsum dolor sit amet, consectetur <b>adipisicing</b> elit. Et aliquam <strong>nulla</strong>, qui harum doloribus eum magni sapiente quis unde quos optio tenetur.</br> Maiores velit ipsum repudiandae praesentium corporis repellendus animi.
+			</p>	
+
+		<!--IMAGENES 
+		title : atributo título
+		-->
+		<img src="imagenes/logo.jpg" alt="Logotipo" title="Imagen extensi&oacute;n jpg" width="200"/>
+		<!-- alt: atributo donde se indica un texto. Es bueno para ayudar al buscador y si el logo no se encuentra por el src mal indicado, se mostraría el texto -->
+		<img src="imagenes/logos.jpg" alt="Texto del Logotipo" width="200"/>
+		<br/><br/>
+		<!-- a:enlace atributo target con valor _blank para que se abra en otra pestaña-->
+		<a target="_blank" href="http://www.google.com"> Ir a Google</a> <!--enlace absoluto-->
+		<a href="imagenes/logo.jpg"> Ir a la imagen</a> <!--enlace relativo -->
+		<!-- a para mail, no recomendado para evitar recibir span, al esta ahí la dirección directamente-->
+		<a href="mailto:acilia@gmail.com" title="Enviar correo a Alicia"> Enviar mail</a>
+		<!-- Linea separadora-->
+		<hr/>
+		<h2>Subtitulo del art&iacute;culo</h2>
+		<!--span no tiene ningún cambio visual, pero con css le podemos dar estilo-->
+		<!--i: letra en italica-->
+		<!--blockquote agregar una cita, cita hacia un artículo, no tiene ningún cambio visual, se mete sólo un espaciado -->
+		<!--cite agregar el autor de la cita, aparece en cursiva -->
+			<p>
+				
+				<blockquote>
+				Lorem ipsum dolor <span>sit</span> amet, consectetur adipisicing elit. Et <i>aliquam</i> nulla, qui harum doloribus eum magni sapiente quis unde quos optio tenetur. Maiores velit ipsum repudiandae praesentium corporis repellendus animi.
+				</blockquote>
+				<cite>Alicia Guti&eacute;rrez</cite>
+			</p>
+			<!-- LISTAS -->
+			<!-- listas desordenadas -->
+			<ul>
+			    <!-- Para los menus de navegacion --> 
+				<li><a href ="#">Item #1</a></li>
+				<li>Item #2</li>
+					<ul>
+						<li>Item #1 </li>
+						<li>Item #2 </li>
+					
+					</ul>
+				<li>Item #3</li>
+			</ul>
+			<!-- lista ordenada -->
+
+				<!-- listas ordenadas ol -->
+			<ol>
+			    <!-- Para los menus de navegacion --> 
+				<li><a href ="#">Item #1</a></li>
+				<li>Item #2</li>
+				<!-- sublistas -->
+					<ul>
+						<li>Item #1 </li>
+						<li>Item #2 </li>
+					
+					</ul>
+				<li>Item #3</li>
+			</ol>
+
+			<!-- TABLAS -->
+			<!-- tr: filas y dentro de la fila td las columnas-->>
+			<table>
+				<tr>
+						<td>Elemento #1</td>
+						<td>Elemento #2</td>
+						<td>Elemento #3</td>
+				</tr>
+				<tr>
+						<td>Elemento #4</td>
+						<td>Elemento #5</td>
+						<td>Elemento #6</td>
+				</tr>
+				<tr>
+						<td>Elemento #7</td>
+						<td>Elemento #8</td>
+						<td>Elemento #9</td>
+				</tr>
+			</table>
+			
+	</body>
+
+</html>
